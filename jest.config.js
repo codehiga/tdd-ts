@@ -1,7 +1,7 @@
 module.exports = {
   roots: ["<rootDir>/src"],
   testEnvironment: "node",
-  trasnform: {
+  transform: {
     ".+\\.ts$": "ts-jest",
   },
   moduleNameMapper: {
